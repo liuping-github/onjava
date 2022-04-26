@@ -3,6 +3,9 @@ package org.onjava.housekeeping;// housekeeping/AutoboxingVarargs.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 
+/**
+ * 当然，可变参数列表与自动装箱机制可以和谐共处，比如：
+ */
 public class AutoboxingVarargs {
   public static void f(Integer... args) {
     for(Integer i : args)
@@ -19,4 +22,5 @@ public class AutoboxingVarargs {
 1 2
 4 5 6 7 8 9
 10 11 12
+当然，可变参数列表与自动装箱机制可以和谐共处，比如：
 */

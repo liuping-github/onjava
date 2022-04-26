@@ -3,6 +3,11 @@ package org.onjava.housekeeping;// housekeeping/OverloadingVarargs.java
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 
+/**
+ * 在每种情况下，编译器都使用自动装箱来匹配重载的方法，然后调用最具体的匹配方法。
+ *
+ * 但是当不带参数调用f()时，编译器就不知道该调用哪一个了。虽然抛出这个错误是可以理解的，但它可能会让程序员感到意外。
+ */
 public class OverloadingVarargs {
   static void f(Character... args) {
     System.out.print("first");

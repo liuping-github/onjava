@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
@@ -27,29 +27,29 @@
     </build>
 
     <name>onjava</name>
-        <description>This is the org.onjava:onjava plugin for Atlassian JIRA.</description>
-        <packaging>atlassian-plugin</packaging>
+    <description>This is the org.onjava:onjava plugin for Atlassian JIRA.</description>
+    <packaging>atlassian-plugin</packaging>
 
     <!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>com.atlassian.jira</groupId>-->
-<!--            <artifactId>atlassian-jira</artifactId>-->
-<!--            <version>${jira.version}</version>-->
-<!--            <scope>provided</scope>-->
-<!--        </dependency>        -->
-<!--        <dependency>-->
-<!--            <groupId>junit</groupId>-->
-<!--            <artifactId>junit</artifactId>-->
-<!--            <version>4.6</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.atlassian.jira</groupId>-->
-<!--            <artifactId>jira-func-tests</artifactId>-->
-<!--            <version>${jira.version}</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+    <!--        <dependency>-->
+    <!--            <groupId>com.atlassian.jira</groupId>-->
+    <!--            <artifactId>atlassian-jira</artifactId>-->
+    <!--            <version>${jira.version}</version>-->
+    <!--            <scope>provided</scope>-->
+    <!--        </dependency>        -->
+    <!--        <dependency>-->
+    <!--            <groupId>junit</groupId>-->
+    <!--            <artifactId>junit</artifactId>-->
+    <!--            <version>4.6</version>-->
+    <!--            <scope>test</scope>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>com.atlassian.jira</groupId>-->
+    <!--            <artifactId>jira-func-tests</artifactId>-->
+    <!--            <version>${jira.version}</version>-->
+    <!--            <scope>test</scope>-->
+    <!--        </dependency>-->
+    <!--    </dependencies>-->
 
 
     <properties>
@@ -57,6 +57,6 @@
         <jira.data.version>4.0</jira.data.version>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
-        </properties>
+    </properties>
 
-    </project>
+</project>
